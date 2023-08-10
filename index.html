@@ -8,6 +8,28 @@
 </head>
 
 <body>
+    <h2> Calculator</h2>
+    <form id="Calculator">
+        <label for="operator">choose operator:</label><br>
+        <select id="operator">
+            <option>add</option>
+            <option>subtract</option>
+            <option>multiply</option>
+            <option>divide</option>
+        </select>
+        <div>
+            <label for="number1Input">enter num 1:</label><br>
+            <input type="number" id="number1Input" name="number1Input"><br>
+            <label for="number2Input"> enter num 2:</label><br>
+            <input type="number" id="number2Input" name="number2Input">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="calcResult" class="hidden">
+        <h2>Result:</h2>
+        <p></p>
+    </div>
 
 </body>
 

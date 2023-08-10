@@ -1,0 +1,9 @@
+.hidden {
+    display: none;
+}
+
+p {
+    font-size: 40px;
+    color: red;
+    padding-left: 10px;
+}
